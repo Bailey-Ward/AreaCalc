@@ -6,7 +6,7 @@ int main()
 {
 	Rectangle rect1(3,5);
 	//Triangle tri1(7, 9);
-	rect1.Area(3,5);
+	rect1.Area();
 	//tri1.Area(3,5);
 }
 

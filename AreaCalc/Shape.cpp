@@ -1,10 +1,5 @@
 #include "Shape.h"
 
-Shape::Shape() {
-	_width = 0;
-	_height = 0;
-}
-
 Shape::Shape(int width, int height) {
 	_width = width;
 	_height = height;

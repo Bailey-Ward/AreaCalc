@@ -6,6 +6,5 @@
 class Rectangle : public Shape {
 public:
 	Rectangle(int, int);
-	int Area(int, int);
-	int areaValue;
+	void Area();
 };

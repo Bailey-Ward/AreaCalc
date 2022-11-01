@@ -17,7 +17,4 @@ public:
 	void setWidth();
 	int getWidth();
 	int areaValue();
-
-
-
 };
