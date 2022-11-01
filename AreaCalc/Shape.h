@@ -8,12 +8,16 @@ private:
 	int _width;
 
 public:
-	int height;
-	int width;
+	Shape(void);
+	Shape(int, int);
+	int height{};
+	int width{};
 	void setHeight();
 	int getHeight();
 	void setWidth();
 	int getWidth();
+	int areaValue();
+
 
 
 };
