@@ -4,17 +4,15 @@
 
 class Shape {
 private:
-	int _height;
+	int _height; //height and width variables are declared here as private variables
 	int _width;
 
 public:
-	Shape(void);
-	Shape(int, int);
-	int height{};
+	Shape(int, int); //shape constuctor declared
+	int height{};  //public variables declared here
 	int width{};
-	void setHeight();
+	void setHeight(); //setters and getters declared in header file
 	int getHeight();
 	void setWidth();
 	int getWidth();
-	int areaValue();
 };

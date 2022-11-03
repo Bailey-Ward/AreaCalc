@@ -2,7 +2,7 @@
 #include "Rectangle.h"
 #include "Triangle.h"
 
-int main()
+int main() //main function
 {
 	Rectangle rect1(3,5);
 	Triangle tri1(7, 9);
